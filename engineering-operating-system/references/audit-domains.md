@@ -17,6 +17,7 @@ Do not average scores blindly. A single P1 gap in release, access, data, or oper
 | Domain | Ready when | Evidence to inspect |
 | --- | --- | --- |
 | Product context | Problem, users, JTBD, journeys, FTUE, and success metrics are explicit. | PRDs, tickets, roadmap, analytics docs, design docs. |
+| Delegated capture | Repetitive data collection and operational steps are assigned to the natural owner of the information when that improves speed, accuracy, and accountability without pushing bureaucracy onto users. | Admin forms, onboarding flows, recadastro flows, self-service screens, imports, approval queues, audit trails. |
 | Stack definition | Frontend, backend, data, infra, auth, analytics, CI/CD, observability, and vendors are mapped. | README, service catalog, package docs, infra config. |
 | Architecture | Components, boundaries, data flow, dependencies, failure modes, and tradeoffs are visible. | Architecture docs, diagrams, ADRs, code boundaries. |
 | Local setup | A new developer can run app, tests, migrations, workers, and seed data safely. | README, scripts, devcontainers, env examples. |

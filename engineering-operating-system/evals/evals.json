@@ -24,6 +24,12 @@
       "prompt": "eos:capstone para uma pequena melhoria real: novo fluxo de convite de usuarios. Quero o pacote completo do problema ao post-launch.",
       "expected_output": "Routes to eos:capstone, creates a feature delivery packet with problem/JTBD, journey, metrics, architecture/API/data/access impact, DoR/DoD, tests, release and post-launch plan.",
       "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "eos:delegated-capture neste projeto. Nao sei exatamente qual processo atacar; procure oportunidades em que usuario final, colaborador ou gestor possa preencher/confirmar informacoes ou executar etapas operacionais para reduzir back office.",
+      "expected_output": "Routes to eos:delegated-capture, scans admin/forms/API/data/workflow evidence, identifies candidate opportunities, classifies natural owners and delegation types, separates confidence from recommendation, and recommends hx-design-studio for UX elaboration where needed.",
+      "files": []
     }
   ]
 }

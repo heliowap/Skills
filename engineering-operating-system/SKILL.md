@@ -1,6 +1,6 @@
 ---
 name: engineering-operating-system
-description: Use this skill whenever the user wants to audit, design, document, or improve the operating system of a software team or product. Trigger on "Engineering Operating System", "EOS", "eos:", "software development 101", "engineering handbook", "maturity audit", "delivery process", "definition of ready", "definition of done", "launch readiness", "release checklist", "ADR", "stack map", "architecture map", "incident process", "engineering onboarding", "operating cadence", or when the user asks how to make a software project/team more reliable from product problem through production operations. This skill supports subcommands such as eos:audit, eos:map, eos:handbook, eos:feature, eos:release, eos:docs, eos:ops, and eos:capstone.
+description: Use this skill whenever the user wants to audit, design, document, or improve the operating system of a software team or product. Trigger on "Engineering Operating System", "EOS", "eos:", "software development 101", "engineering handbook", "maturity audit", "delivery process", "definition of ready", "definition of done", "launch readiness", "release checklist", "delegated capture", "source data workflow", "back office reduction", "self-service operations", "ADR", "stack map", "architecture map", "incident process", "engineering onboarding", "operating cadence", or when the user asks how to make a software project/team more reliable from product problem through production operations. This skill supports subcommands such as eos:audit, eos:map, eos:handbook, eos:feature, eos:delegated-capture, eos:release, eos:docs, eos:ops, and eos:capstone.
 ---
 
 # Engineering Operating System
@@ -55,6 +55,7 @@ For the full routing table, read `references/subcommands.md`.
    - Use `references/audit-domains.md` for audits and maturity scoring.
    - Use `references/templates.md` when producing artifacts.
    - Use `references/capstone.md` for end-to-end feature delivery programs.
+   - Use `references/delegated-capture.md` when looking for opportunities to move repetitive data collection or operational steps from back office to the natural owner of the information.
 
 ## Subcommand behavior
 
@@ -83,6 +84,16 @@ For `eos:feature`, `eos:capstone`, launch readiness, or end-to-end delivery requ
 - Read `references/capstone.md`.
 - Connect problem statement, JTBD, user journey, metrics, architecture/API/data impact, DoR/DoD, tests, release, rollout, rollback, and post-launch review.
 - Do not let code merge be the definition of success.
+
+### Delegated capture modes
+
+For `eos:delegated-capture`, delegated data collection, back-office reduction, onboarding self-service, recadastro, operational self-service, or source-of-truth capture requests:
+
+- Read `references/delegated-capture.md`.
+- Look for candidate workflows even when the user does not name a specific process.
+- Treat code and docs as evidence of candidates, not proof of operational cost.
+- Recommend `hx-design-studio` when an opportunity needs flow design, form UX, microcopy, screen hierarchy, progressive disclosure, or validation UX.
+- Keep the distinction between healthy delegation and pushing bureaucracy onto the user.
 
 ## Output formats
 
