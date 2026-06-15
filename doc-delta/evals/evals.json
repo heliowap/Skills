@@ -1,0 +1,23 @@
+{
+  "skill_name": "doc-delta",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I changed a FastAPI endpoint to require a new permission, updated tests, and there is a docs/doc-map.yml in the repo. Close out the work.",
+      "expected_output": "Consults the doc map, routes the auth/security documentation impact, updates or flags the relevant docs, and includes a complete Doc Delta block.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review this PR. It adds a Supabase migration and a feature flag but does not touch docs.",
+      "expected_output": "Does not edit docs during review unless asked, but reports a documentation finding or closeout noting required updates to production-deploy or migration docs.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I only renamed a private helper and fixed its unit test. No user-facing behavior changed. Give me the final response.",
+      "expected_output": "Includes a Doc Delta block only if closeout is expected, marks Doc impact no, and explains that there were no behavior, contract, setup, operations, or architecture changes.",
+      "files": []
+    }
+  ]
+}
