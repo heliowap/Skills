@@ -1,0 +1,29 @@
+{
+  "skill_name": "engineering-operating-system",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Engineering Operating System: eos:audit neste repo. Quero uma avaliacao de maturidade com evidencias, gaps e proximos passos.",
+      "expected_output": "Routes to eos:audit, inspects local repo/docs when available, scores domains from evidence, separates unknown from missing, and returns prioritized risks and next steps.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "eos:release para uma feature que muda onboarding, permissoes e uma migracao de banco. Monte checklist de go/no-go, rollout e rollback.",
+      "expected_output": "Routes to eos:release, uses the release template, covers tests, migration, permissions, docs, analytics, monitoring, support communication, stop criteria, rollout and rollback.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Crie um Engineering Operating System handbook inicial para um produto pequeno com frontend, backend, Supabase, CI no GitHub e deploy manual.",
+      "expected_output": "Routes to eos:handbook, right-sizes the process, produces an actionable handbook outline with ownership, commands, workflow, quality, release, docs and operations sections.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "eos:capstone para uma pequena melhoria real: novo fluxo de convite de usuarios. Quero o pacote completo do problema ao post-launch.",
+      "expected_output": "Routes to eos:capstone, creates a feature delivery packet with problem/JTBD, journey, metrics, architecture/API/data/access impact, DoR/DoD, tests, release and post-launch plan.",
+      "files": []
+    }
+  ]
+}
