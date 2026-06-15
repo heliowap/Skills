@@ -12,7 +12,9 @@ deve preservar a versao fonte revisavel.
 | Skill | Uso principal | Origem inicial |
 | --- | --- | --- |
 | `doc-delta` | Manter manutencao documental como Definition of Done de tarefas de codigo, configuracao, operacao, seguranca, API, schema e arquitetura. | Criada neste repo |
+| `handoff-executor` | Transformar handoffs, planos e checklists em execucao verificavel, preservando contexto, branch/worktree e evidencias de fechamento. | Criada neste repo |
 | `hx-design-studio` | Consultoria e producao de Human Experience Design, critica UI/UX, direcao visual, prototipos, decks, motion e infograficos. | `~/.codex/skills/hx-design-studio` |
+| `repo-pr-triage-review` | Triar PRs abertos, avaliar readiness, interpretar checks atuais e conduzir code review findings-first quando solicitado. | Criada neste repo |
 
 ## Como adicionar uma skill
 

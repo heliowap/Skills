@@ -1,0 +1,23 @@
+{
+  "skill_name": "handoff-executor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Assuma o handoff em /tmp/handoff-project.md, execute os itens independentes primeiro e me devolva uma tabela item -> arquivos -> testes -> resultado.",
+      "expected_output": "Reads the handoff, verifies current repo state, separates ready/parallel/blocked tasks, executes what is safe, and closes with an evidence table.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Continue from this handoff. It says the tests passed yesterday and the branch is ready, but there are uncommitted files now. Finish safely and do not lose any work.",
+      "expected_output": "Treats the handoff as stale, checks git state and diffs, preserves unrelated changes, validates before claiming readiness, and avoids destructive git commands.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Execute em loop ate bloquear. Use subagents para investigacao paralela, consolide os achados e deixe um novo handoff se sobrar trabalho.",
+      "expected_output": "Builds an execution checklist, uses parallel work only where safe, verifies claims centrally, continues through ready tasks, and writes a fresh handoff when work remains.",
+      "files": []
+    }
+  ]
+}

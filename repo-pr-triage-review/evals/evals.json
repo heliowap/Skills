@@ -1,0 +1,23 @@
+{
+  "skill_name": "repo-pr-triage-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Verifique PR abertos neste repo e diga o que esta pronto para merge.",
+      "expected_output": "Starts with a concise open-PR inventory, checks mergeability and current CI state, surfaces manual gates from PR bodies, and groups PRs by readiness.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Code review.",
+      "expected_output": "If a current PR was just inventoried, reviews that PR by default, reads repo instructions and diff context, and returns findings first with file and line evidence.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "O gh pr checks saiu 1, mas parece que tem run duplicado. Descubra se a PR esta realmente bloqueada.",
+      "expected_output": "Does not rely only on the non-zero exit code; inspects current versus stale check rows and reports whether the latest relevant run is passing or failing.",
+      "files": []
+    }
+  ]
+}
