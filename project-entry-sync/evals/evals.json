@@ -1,0 +1,29 @@
+{
+  "skill_name": "project-entry-sync",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Entre nesse projeto, sincronize o GitHub e me diga rapidamente o que eu preciso saber para comecar a trabalhar sem gastar muito contexto.",
+      "expected_output": "Safely fetches remote metadata without pull/merge, reads high-signal files only, reports repo/GitHub state, project shape, commands, rules, risks, and next moves in a compact brief.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Faca uma entrada token efficient neste repo. Tem mudancas locais, entao nao faca nada que possa sobrescrever trabalho.",
+      "expected_output": "Starts with git status, preserves dirty state, avoids destructive git operations, reads local instructions and manifests, and highlights local changes in the Project Entry Brief.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Quero um briefing inicial desse monorepo, com GitHub sync, PRs abertos, comandos principais e quais docs devo ler depois.",
+      "expected_output": "Uses GitHub CLI or fallback metadata, maps apps/packages/services from high-signal files, lists commands with evidence, and explicitly names docs skipped/read to save tokens.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Estou numa pasta sem acesso ao gh autenticado. Ainda assim entre no projeto e me de o melhor mapa possivel.",
+      "expected_output": "Reports GitHub access limitation, continues with local git/docs/manifests, avoids auth troubleshooting unless requested, and marks remote PR/issues/CI as unknown.",
+      "files": []
+    }
+  ]
+}

@@ -15,6 +15,7 @@ deve preservar a versao fonte revisavel.
 | `engineering-operating-system` | Auditar e desenhar o sistema operacional de engenharia de um produto: contexto, arquitetura, workflow, qualidade, release, seguranca, dados, operacoes, docs e cadencia. Inclui subcomandos `eos:*`, como `eos:delegated-capture`. | Criada neste repo a partir do livro `Software Development 101` |
 | `handoff-executor` | Transformar handoffs, planos e checklists em execucao verificavel, preservando contexto, branch/worktree e evidencias de fechamento. | Criada neste repo |
 | `hx-design-studio` | Consultoria e producao de Human Experience Design, critica UI/UX, direcao visual, prototipos, decks, motion e infograficos. | `~/.codex/skills/hx-design-studio` |
+| `project-entry-sync` | Entrada rapida e token-efficient em projetos existentes: sincroniza metadados do GitHub sem alterar o working tree, le arquivos de alto sinal e devolve um briefing compacto do projeto. | Criada neste repo |
 | `repo-pr-triage-review` | Triar PRs abertos, avaliar readiness, interpretar checks atuais e conduzir code review findings-first quando solicitado. | Criada neste repo |
 
 ## Como adicionar uma skill
