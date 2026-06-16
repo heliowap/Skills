@@ -1,9 +1,9 @@
 ---
-name: project-entry-sync
-description: Use this skill whenever the user asks you to enter, onboard into, sync, orient yourself in, understand, map, or quickly get up to speed on an existing software project or GitHub repository. Trigger on phrases like "entre nesse projeto", "sincronize o GitHub", "compreenda o projeto rapido", "token efficient", "repo orientation", "project intake", "get up to speed", "understand this codebase", "context pack", "initial repo scan", "quick project brief", or when starting work in an unfamiliar repo. This skill safely syncs GitHub metadata without changing the working tree, reads only high-signal project files, and returns a compact evidence-based project brief.
+name: hello-repo
+description: Use this skill whenever the user asks you to enter, onboard into, sync, orient yourself in, understand, map, or quickly get up to speed on an existing software project or GitHub repository. Trigger on "hello-repo", "hello repo", "entre nesse projeto", "sincronize o GitHub", "compreenda o projeto rapido", "token efficient", "repo orientation", "project intake", "get up to speed", "understand this codebase", "context pack", "initial repo scan", "quick project brief", or when starting work in an unfamiliar repo. This skill safely syncs GitHub metadata without changing the working tree, reads only high-signal project files, and returns a compact evidence-based project brief.
 ---
 
-# Project Entry Sync
+# Hello Repo
 
 Enter an existing project quickly, safely, and with low token waste. The goal is to build an accurate working map before doing implementation, review, or planning.
 
@@ -96,7 +96,7 @@ Do not over-explain implementation details yet. The next task will decide what n
 If available, run:
 
 ```bash
-./project-entry-sync/scripts/project-entry-snapshot.sh --sync
+./hello-repo/scripts/hello-repo-snapshot.sh --sync
 ```
 
 Use the script output as a starting point, not as the final answer. If the script is absent, run the commands manually.
